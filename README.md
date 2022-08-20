@@ -8,7 +8,7 @@
 
 ******************
 
-Register your application on apps.twitter.com.
+## Register your application on apps.twitter.com.
 
 Navigate to the Twitter App dashboard and open the Twitter App for which you would like to generate access tokens.
 
@@ -20,15 +20,15 @@ Write down the Bearer Token.
 
 ****************
 
-pip install tweepy==4.4.0
+## pip install tweepy==4.4.0
 
 ***************
 
-Install Docker
+## Install Docker
 
 **************
 
-Use docker-compose to orchestrate a data pipeline with five containers:
+## Use docker-compose to orchestrate a data pipeline with five containers:
 
 tweet_collector    self-made       collects tweets and stores them in MongoDB
 
@@ -42,7 +42,7 @@ slack_bot        self-made         publishes highly ranking tweets in a Slack ch
 
 *****************
 
-ETL : Extract - Transform - Load.
+## ETL : Extract - Transform - Load.
 
 use ETL to  Extract data from MongoDB then Transform(performs the Sentiment Analysis and returns entries with sentiment),
 and finally Load it to PostgresDB
